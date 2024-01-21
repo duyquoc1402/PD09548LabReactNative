@@ -1,9 +1,12 @@
 import React from 'react';
 import {Text} from 'react-native';
 import MyLab3 from './src/screens/lab 3';
+import ViewComponent from './src/screens/lab 3';
+import { create } from 'react-test-renderer';
 
-const MyLab3 = () => {
-  return <MyLab3/>;
+const Stack = createNativeStackNavigator();
+const App = () => {
+  return <ViewComponent/>;
 };
 
-export default MyLab3;
+export default App;
