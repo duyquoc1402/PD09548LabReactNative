@@ -1,12 +1,13 @@
 import React from 'react';
 import {Text} from 'react-native';
-import MyLab3 from './src/screens/lab 3';
-import ViewComponent from './src/screens/lab 3';
-import { create } from 'react-test-renderer';
+import Abc from './src/scrollview';
+import Splash from './src/splash';
+import SignUp from './src/sign in';
 
-const Stack = createNativeStackNavigator();
+
+
 const App = () => {
-  return <ViewComponent/>;
+  return <SignUp/>
 };
 
 export default App;
