@@ -1,8 +1,14 @@
 import React from 'react';
-import {Text} from 'react-native';
+import {Text, View} from 'react-native';
+import ListCourse from '../../components/list';
 
-const MyLab4 = () => {
-    return <Text>Day la lab 4</Text>;
+
+const Lab4 = () => {
+    return (
+      <View>
+        <ListCourse/>
+      </View>
+    );
   };
   
-  export default MyLab4;
+  export default React.memo(Lab4);
