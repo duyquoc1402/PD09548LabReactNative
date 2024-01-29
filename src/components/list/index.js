@@ -41,8 +41,8 @@ const DATA = [
 ];
 const Item = ({title, imageSource}) => {
     return(
-        <View style ={styles.Item}>
-            <Image source ={imageSource} styles ={style.avatar}></Image>
+        <View style ={styles.item}>
+            <Image source ={imageSource} styles ={styles.avatar}></Image>
             <Text style = {styles.text}>{title}</Text>
         </View>
     );

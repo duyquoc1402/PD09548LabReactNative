@@ -3,8 +3,6 @@ import {styles} from './styles'
 import { Image, Pressable, Text, View } from "react-native";
 import Button from "../../../../components/Button";
 
-
-
 const Splash=()=>{
     return(
         <View style={styles.container}>

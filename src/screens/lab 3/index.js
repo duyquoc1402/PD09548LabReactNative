@@ -1,9 +1,9 @@
-import { StyleSheet, View , Text, TextInput } from "react-native";
+import { StyleSheet, View , Text} from "react-native";
 import {style} from'./styles'; 
 import { useState } from "react";
+import {TextInput} from 'react-native-gesture-handler';
 
-
-const ViewComponent = () =>{
+const ViewComponent = () => {
     const [name,setName] = useState('');
     const [phone,setPhone] = useState('');
     const [password,setPassword] = useState('');
