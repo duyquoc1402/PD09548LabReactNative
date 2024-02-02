@@ -22,7 +22,7 @@ const Splash=()=>{
             </Pressable>
 
         </View>
-
+        
     );
 };
 export default Splash;

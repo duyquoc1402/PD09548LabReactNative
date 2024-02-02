@@ -9,7 +9,7 @@ export const style = StyleSheet.create({
         padding: 15,
     },
     baseText: {
-        fontFamily: 'Cochin',
+        fontFamily: 'bold',
         color: 'White',
         fontSize: 16, 
         marginTop :10 , 
