@@ -4,11 +4,12 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 
 
+
 function HomeScreen({ navigation }) {
     return (
         <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
             <Button
-                onPress={() => navigation.navigate('Notifycations')}
+                onPress={() => navigation.navigate('Notifications')} // Sửa thành 'Notifications'
                 title="Go to notifications"
             />
         </View>
